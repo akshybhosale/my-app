@@ -1,0 +1,27 @@
+.dummy {
+width: 250px;
+height: 150px;
+
+}
+.container {
+
+    margin: 20px;
+    float: left;
+    display: flexbox;
+    align-items: center;
+}
+.title {
+font-weight: bold;
+margin-bottom: 1em;
+}
+
+.channels, .views {
+    font-size: small;
+    color: aquamarine;
+    margin-bottom: 0 0.05em;
+    margin-top: 5px;
+}
+
+.views span {
+    padding: 0 0.05em;
+}

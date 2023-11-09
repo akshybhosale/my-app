@@ -1,0 +1,14 @@
+button {
+  background-color: #000;
+  border: 1px solid #008900;
+  padding: 1em;
+  border-radius: 1em;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: gray;
+  color: rgb(148, 30, 53);
+}
