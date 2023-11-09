@@ -1,36 +1,20 @@
+// import Header from "./components/Header";
+// import Main from "./components/Main";
+// import Footer from "./components/Footer";
+import Map from './components/Map';
+import "./App.css";
+import Header from './components/Header';
 function App() {
-
-function Header() {
-    return(
-        <header>
-            <h1>This is a Header function</h1>
-        </header>
-    );
-}
-const name = 'Josh Perez';
-function Main () {
-    return(
-        <section>
-     
-         <h1>Hello, {name}</h1>;
-           <p>This is main section of body</p> 
-        </section>
-    );
-}
-
-function Footer(prop){
-    return(
-        <footer>
-           <p>This is footer section of this page {prop.name}</p> 
-        </footer>
-    );
-}
   return (
-    <>
-      <Header />
+    <div className="App">
+     <Map />
+     <Header />
+      {/* <Header />
       <Main />
-      <Footer name="footer_name"/> //declared prop in footer function
-    </>
+      <Footer name="footer_name"/>  */}
+      {/*declared prop in footer function*/}
+
+    </div>
   );
 }
 export default App;
